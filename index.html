@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manjunath_L</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+    .home-page {
+    display: table;
+    position: relative;
+    z-index: 2; 
+    top: 0;
+    width: 100%
+}
+
+.home-page .container {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    z-index: 1
+}
+.home-page h1:before {
+    margin: 0 auto 0.3em auto
+}
+
+.home-page h1:after {
+    content: "";
+    display: block;
+    width: 0.75em;
+    height: 0.125em;
+    margin: 0.3em auto 0.35em auto;
+    background: gold
+}
+
+.home-page h2:after {
+    content: "";
+    display: block;
+    width: 1em;
+    height: 0.1667em;
+    margin: 0.4em auto 0.35em auto;
+    background: gold
+}
+
+.home-page p {
+    margin: 0 auto 1em auto
+}
+body.hero {
+    background: #050505ea
+}
+
+.hero .home-page {
+    overflow: hidden;
+    color: #f2f1ed;
+    background: url("../images/texture-dark.png");
+    background-size: 29.75em;
+    box-shadow: 0 2px 0 rgba(17,17,18,0.2)
+}
+
+
+
+.hero .home-page:after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: gold
+}
+.designer {
+    text-transform: uppercase;
+    color: gold;
+}
+
+.designer:before {
+    content: url("");
+
+    display: block
+}
+.designer:before {
+    width: 70px;
+    height: 10px
+}
+.designer:before {
+        width: 85px;
+        height: 45px
+    }
+.designer:before {
+        width: 100px;
+        height: 10px
+}
+.pack {
+    max-width: 1140px;
+    margin: 0 auto
+}
+
+.hero .home-page h1:after {
+    background: #f2f1ed
+}
+
+.hero .home-page h4 {
+    position: relative;
+    letter-spacing: 0.15em
+}
+
+.hero .home-page h4:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -0.5em
+}
+.font{
+    font-size: 30px;
+}
+.font1{
+    font-size: 40px;
+}
+.border-line{
+    border-top: solid 1px gold;
+    color: gold;
+    box-shadow: 1px 1px 10px 1px;
+}
+    </style>
+    <script>
+
+        document.onkeydown = function (e) {
+            if (event.keyCode == 123) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && (e.keyCode == 'I'.charCodeAt(0) || e.keyCode == 'i'.charCodeAt(0))) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && (e.keyCode == 'C'.charCodeAt(0) || e.keyCode == 'c'.charCodeAt(0))) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && (e.keyCode == 'J'.charCodeAt(0) || e.keyCode == 'j'.charCodeAt(0))) {
+                return false;
+            }
+            if (e.ctrlKey && (e.keyCode == 'U'.charCodeAt(0) || e.keyCode == 'u'.charCodeAt(0))) {
+                return false;
+            }
+            if (e.ctrlKey && (e.keyCode == 'S'.charCodeAt(0) || e.keyCode == 's'.charCodeAt(0))) {
+                return false;
+            }
+        }
+    </script>
+</head>
+
+<body oncontextmenu="return false;">
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo ">Portfolio.<span class="animate" style="--i:1;"></span></a>
+
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#home">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+    </header>
+    <div>
+    <section id="intro" class="home-page ">
+        <div class="container">
+            <h1 class="designer pack font font1" >Manjunath L</h1>
+            <h4 class="pack font"><span class="designer">Front End Web Developer</span><span class="developer">  </span></h4>
+        </div>
+    </section>
+    </div>
+
+
+    <!-- home section design -->
+    <section class="home show-animate border-line " id="home">
+        
+        <div class="home-content">
+            <div style="position: absolute;top: 1200px;font-size: 40px;" class="about-title"><h1>About</h1></div>
+            <div class="about-img" style="position: relative;left: 0%;top: 0%;">
+                <span style="font-size: 30px;">Manjunath_L</span>
+                <span class="circle-spin"></span>
+                <span class="animate scroll" style="--i:2;"></span>
+            </div>
+            
+            <h1>Hi, I'm <span>Manjunath L</span><span class="animate" style="--i:2;"></span></h1>
+            <div class="text-animate">
+                <h3>Web Developer</h3>
+                <span class="animate" style="--i:3;"></span>
+            </div>
+            <p>A skilled frontend developer with 1 of experience in creating visually stunning and user-friendly websites and applications. Proficient in HTML, CSS, and JavaScript, with a strong understanding of modern frontend framework like React.
+                
+
+
+                <span class="animate" style="--i:4;"></span>
+            </p>
+
+            <div class="btn-box">
+                <a href="#contact" class="btn">Contact</a>
+                <span class="animate" style="--i:5;"></span>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-gmail'></i></a>
+            <a href="#"><i class='bx bxs-file-pdf'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <span class="animate" style="--i:6;"></span>
+        </div>
+
+        <div class="home-imgHover"></div>
+        <span class="animate home-img" style="--i:7;"></span>
+    </section>
+
+
+
+    <!-- education section design -->
+    <section class="education border-line" id="education">
+        <h2 class="heading">My <span>Journey</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="education-box animate scroll">
+                    <div class="education-content ">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar '></i> 2019 - 2023</div>
+                            <h3>BE CSE</h3>
+                            <p>I completed my education at sri sairam college of engineering 
+                                of the course BE computer science engineering.
+                            </p>
+                        </div>
+                    </div>
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+
+            <div class="education-column">
+                <h3 class="title">Experience<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="education-box animate scroll">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2022</div>
+                            <h3>Full Stack Web Developer - Take It Smart Pvt Ltd.</h3>
+                            <p>As a full-stack developer at Take It Smart Pvt Ltd, I leveraged my expertise in PHP to design, develop, and deploy robust web applications. I worked closely with cross-functional teams, including designers and backend developers.</p>
+                        </div>
+                    </div>
+
+                    
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="border-line">
+
+    <!-- skills section design -->
+    <section class="skills border-line" id="skills">
+        <h2 class="heading">My <span>Skills</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Html,Css<span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JavaScript <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Dart <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Python <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Professional Skills<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Front End development <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Mobile app development <span>67%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Python Development <span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Game Development and ML<span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="border-line">
+    <!-- project section design -->
+    <section class="contact border-line" id="project">
+        <div class="project-column">
+            <h2 class="heading">Projects <span></span><span class="animate scroll" style="--i:1;"></span></h2>
+            <div class="">
+                <div>
+                    <img src="images/proj1.png" class="proj-img scroll proj1">
+                    <h4 class="proj-text">Spam Detection Using Machine Learning </h4>
+                    <img src="images/proj2.png" class="proj-img proj2">
+                    <h4 class="proj-text">Food Ordering Website </h4>
+                    <img class="proj-img" src="images/proj3.png" alt="">
+                    <h4 class="proj-text">Student Report Card </h4>
+                </div>
+            </div>
+        </div>
+        
+
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact border-line" id="contact">
+        <h2 class="heading">Contact <span>Me</span><span class=" scroll" style="--i:1;"></span></h2>
+        <ui class="co1">
+            <div><label style="font-size: 30px;"> Gmail<span style="padding: 10px;"><i class='bx bxl-gmail'></i></span><span style="padding: 30px;"></span>manjunathcse2002@gmail.com</span></label></a></div> 
+    
+        </ui>
+        
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+
+            <span class="animate scroll" style="--i:1;"></span>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+
+            <span class="animate scroll" style="--i:3;"></span>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
